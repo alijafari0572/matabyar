@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BE
+{
+    public class bimar_picture
+    {
+        public int id { get; set; }
+        public string Name { get; set; }
+        public string codsabtbimar { get; set; }
+        public string pictureAddress { get; set; }
+
+    }
+}
