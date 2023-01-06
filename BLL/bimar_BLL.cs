@@ -18,7 +18,7 @@ namespace BLL
         }
         public List<bimar> Read()
         {
-            return DAL.Read();
+            return  DAL.Read();
         }
         public bimar Read(int id)
         {
